@@ -1,6 +1,6 @@
 # ☕ Premium Coffee Shop Location Analysis using ArcGIS Pro
 
-![Study Area](outputs-images/1_study_area/home_gif.gif)
+![Study Area](outputs-images/1_study_area/home_gif.gif?raw=true)
 
 ## 📌 Project Overview
 
