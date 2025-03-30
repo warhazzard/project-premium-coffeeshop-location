@@ -50,9 +50,9 @@ A **premium coffee store** should be in:
 
 ## 🏗 Spatial Analysis Workflow
 
-### Point Pattern Analysis
+### 1. Point Pattern Analysis
 
-#### 1️⃣ Crime Analysis Using KDE
+#### Crime Analysis Using KDE
 
 **Objective:**  
 Identify high-crime areas to avoid placing the store.
@@ -81,7 +81,7 @@ Heatmap of crime hotspots
 
 ---
 
-#### 2️⃣ Competitor & Demand Analysis
+#### Competitor & Demand Analysis
 
 **Objective:**  
 Identify ideal locations based on:
@@ -105,9 +105,9 @@ Heatmap of Supply and Demand
 
 ---
 
-### Spatial Autocorrelation
+### 2. Spatial Autocorrelation
 
-#### 1️⃣ Locating High-Income Areas
+#### Locating High-Income Areas
 
 **Objective:**  
 Identify high-income areas for our store.
@@ -145,7 +145,7 @@ Identify spatial autocorrelation of Income
 
 ---
 
-#### 2️⃣ Multivariate Analysis: Clustering
+#### Multivariate Analysis: Clustering
 
 **Objective:**  
 Clustering – High spenders, locating high-income areas, and determining the best location.
@@ -173,7 +173,7 @@ Best candidate postcodes for store location
 
 ---
 
-### Identifying Locations with Ease-of-Accessibility
+### 3. Identifying Locations with Ease-of-Accessibility
 
 **Objective:**  
 Accessibility Buffer
@@ -190,7 +190,7 @@ Accessibility Raster
 
 ---
 
-### Suitability Analysis
+### 4. Suitability Analysis
 
 **Objective:**  
 To finally find the best postcode for our premium coffee shop.
