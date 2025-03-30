@@ -1,6 +1,6 @@
 # ☕ Premium Coffee Shop Location Analysis using ArcGIS Pro
 
-![[home_image_edit.png]]
+[!(https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg)]
 ## 📌 Project Overview
 
 **Project Scenario:** An investor seeks the **best location** to establish a **premium coffee shop** in **Athens, Greece**. This analysis uses **spatial data, crime statistics, and socioeconomic indicators** to find the most suitable neighborhood based on:
