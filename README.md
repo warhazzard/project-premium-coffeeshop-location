@@ -28,7 +28,7 @@ The study is focused on **Athens, Greece**, using:
     Cafe locations, offices, universities, transport hubs and network, and amenities.
 
 - **ArcGIS Analysis:**  
-    Heatmaps, point pattern analysis, and suitability scores.
+    Heatmaps, point pattern analysis, spatial autocorrelation and suitability builder.
 
 <p align="center">
 <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg?raw=true">
