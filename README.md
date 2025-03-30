@@ -43,6 +43,14 @@ A **premium coffee store** should be in:
 
 ![Crime Nearest Neighbour](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true)
 
+![Ripley's K](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/2_ripley's-K.jpg?raw=true)
+
+![Crime Risk](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/3_crime_risk.jpg?raw=true)
+
+![Demand](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/4_demand.jpg?raw=true)
+
+![Supply](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true)
+
 ---
 
 #### **2️⃣ Competitor & Demand Analysis**
