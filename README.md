@@ -46,7 +46,13 @@ A **premium coffee store** should be in:
   <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true">
 </p>
 
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/2_ripley's-K_graph.jpg?raw=true">
+</p>
 
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/2_ripley's-K_table.jpg?raw=true">
+</p>
 
 <p align="center">
   <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/3_crime_risk.jpg?raw=true">
@@ -60,8 +66,14 @@ A **premium coffee store** should be in:
 - **Existing coffee shops** (Avoid high competition areas)
 - **Footfall zones** (Universities, malls, offices)
 
+
 <p align="center">
-  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true" width="600" height="auto">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/4_demand.jpg?raw=true">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true">
 </p>
 
 📌 **Tool:** ArcGIS (`Proximity(Buffer), Measure of Spread, Directional Trend & Kernel Density Analysis`)
