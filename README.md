@@ -51,6 +51,7 @@ A **premium coffee store** should be in:
 
 ![Supply](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true)
 
+<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true" width="500" height="auto">
 ---
 
 #### **2️⃣ Competitor & Demand Analysis**
