@@ -1,6 +1,6 @@
 # ☕ Premium Coffee Shop Location Analysis using ArcGIS Pro
 
-![Study Area](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg?raw=true)
+![Study Area](outputs-images/1_study_area/home_gif.gif)
 
 ## 📌 Project Overview
 
