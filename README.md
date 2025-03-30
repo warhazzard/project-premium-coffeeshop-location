@@ -1,6 +1,6 @@
 # ☕ Premium Coffee Shop Location Analysis using ArcGIS Pro
 
-<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/home_gif.gif?raw=true" width="500" height="auto">
+<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/home_gif.gif?raw=true">
 
 ## 📌 Project Overview
 
@@ -18,7 +18,7 @@ The study is focused on **Athens, Greece**, using:
 - **OpenStreetMap (OSM):** Cafe locations, offices, universities, transport hubs and network, and amenities.
 - **ArcGIS Analysis:** Heatmaps, point pattern analysis, and suitability scores.
 
-<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg?raw=true" width="500" height="auto">
+<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg?raw=true" width="600" height="auto">
 
 
 ## 🔍 **Site Selection Criteria**
@@ -41,15 +41,26 @@ A **premium coffee store** should be in:
 
 🔹 **Output:** Heatmap of crime hotspots
 
-<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true" width="500" height="auto">
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true" width="600" height="auto">
+</p>
 
-<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/2_ripley's-K.jpg?raw=true" width="500" height="auto">
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/2_ripley's-K.jpg?raw=true" width="600" height="auto">
+</p>
 
-<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/3_crime_risk.jpg?raw=true" width="500" height="auto">
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/3_crime_risk.jpg?raw=true" width="600" height="auto">
+</p>
 
-<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/4_demand.jpg?raw=true" width="500" height="auto">
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/4_demand.jpg?raw=true" width="600" height="auto">
+</p>
 
-<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true" width="500" height="auto">
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true" width="600" height="auto">
+</p>
+
 
 ---
 
