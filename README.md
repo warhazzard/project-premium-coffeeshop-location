@@ -18,7 +18,8 @@ The study is focused on **Athens, Greece**, using:
 - **OpenStreetMap (OSM):** Cafe locations, offices, universities, transport hubs and network, and amenities.
 - **ArcGIS Analysis:** Heatmaps, point pattern analysis, and suitability scores.
 
-![[study area 1.jpg]]
+![Study Area](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg?raw=true)
+
 
 ## 🔍 **Site Selection Criteria**
 
@@ -40,7 +41,7 @@ A **premium coffee store** should be in:
 
 🔹 **Output:** Heatmap of crime hotspots
 
-![Crime KDE](docs/images/crime_kde.png)
+![Crime Nearest Neighbour](https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true)
 
 ---
 
