@@ -34,7 +34,9 @@ A **premium coffee store** should be in:
 
 #### **1️⃣ Crime Analysis Using KDE**
 **Objective:** Identify high-crime areas to avoid placing the store.
+
 📌 **Tool:** ArcGIS Pro (`Measure of Spread, Directional Trend - SDE, Ripley's K function, Kernel Density`)
+
 🔹 **Output:** Heatmap of crime hotspots
 
 ![Crime KDE](docs/images/crime_kde.png)
@@ -43,19 +45,24 @@ A **premium coffee store** should be in:
 
 #### **2️⃣ Competitor & Demand Analysis**
 **Objective:** Identify ideal locations based on:
+
 - **Existing coffee shops** (Avoid high competition areas)
 - **High Accessibility** (Proximity to transport hubs)
 - **Footfall zones** (Universities, malls, offices)
 
 📌 **Tool:** ArcGIS (`Proximity(Buffer), Measure of Spread, Directional Trend & Kernel Density Analysis`)
+
 🔹 **Output:** Heatmap of Supply and Demand
 
 
 ### **Spatial Autocorrelation:**
 
 #### **1️⃣ Locating High-Income Areas**
+
 **Objective:** Identify high-income areas for our store.
+
 📌 **Tool:** ArcGIS Pro (`Moran’s I, Getis-Ord General G`)
+
 🔹 **Output:** Indentify spatial autocorrelation of Income
 
 - Identifying threshold distance for global Moran's I
@@ -65,16 +72,22 @@ A **premium coffee store** should be in:
 
 
 #### **2️⃣ Multivariate Analysis: Clustering**
+
 **Objective:** Clustering – High spenders, locating high income areas and determining best location
+
 📌 **Tool:** ArcGIS Pro (`Group Analysis(K-means), Cosine Similarity`)
+
 🔹 **Output:** Best candidates postcodes for store location
 
 - Multivariate Analysis
 - Similarity Analysis
 
 ### **Identifying locations with Ease-of-Accessibility:**
+
 **Objective:** Accessibility Buffer
+
 📌 **Tool:** ArcGIS Pro (`Buffer`)
+
 🔹 **Output:** Accessibility Raster
 
 ### **Suitability Analysis:**
