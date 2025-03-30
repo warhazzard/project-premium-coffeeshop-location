@@ -18,8 +18,9 @@ The study is focused on **Athens, Greece**, using:
 - **OpenStreetMap (OSM):** Cafe locations, offices, universities, transport hubs and network, and amenities.
 - **ArcGIS Analysis:** Heatmaps, point pattern analysis, and suitability scores.
 
+<p align="center">
 <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg?raw=true" width="600" height="auto">
-
+</p>
 
 ## 🔍 **Site Selection Criteria**
 
@@ -53,23 +54,17 @@ A **premium coffee store** should be in:
   <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/3_crime_risk.jpg?raw=true" width="600" height="auto">
 </p>
 
-<p align="center">
-  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/4_demand.jpg?raw=true" width="600" height="auto">
-</p>
-
-<p align="center">
-  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true" width="600" height="auto">
-</p>
-
-
 ---
 
 #### **2️⃣ Competitor & Demand Analysis**
 **Objective:** Identify ideal locations based on:
 
 - **Existing coffee shops** (Avoid high competition areas)
-- **High Accessibility** (Proximity to transport hubs)
 - **Footfall zones** (Universities, malls, offices)
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true" width="600" height="auto">
+</p>
 
 📌 **Tool:** ArcGIS (`Proximity(Buffer), Measure of Spread, Directional Trend & Kernel Density Analysis`)
 
@@ -91,6 +86,26 @@ A **premium coffee store** should be in:
 - Examining if local clusters and outliers exists, and if so where are they? - using local Moran's I 
 - Finally, identify income hotspots and coldspots using the local Getis-Ord G∗
 
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/1_moranI-global.jpg?raw=true">
+</p>
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/2_h_l-clustering-generel%20getis%20ord%20g.jpg?raw=true">
+</p>
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/3_incremental-moran'sI.jpg?raw=true">
+</p>
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/4_local_morans-i_outlier_and_cluster.jpg?raw=true">
+</p>
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/5_hotspots-coldspots.jpg?raw=true">
+</p>
+
 
 #### **2️⃣ Multivariate Analysis: Clustering**
 
@@ -103,6 +118,19 @@ A **premium coffee store** should be in:
 - Multivariate Analysis
 - Similarity Analysis
 
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/6_multivar_kmeans.jpg?raw=true">
+</p>
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/7_psedo_f-statistic.jpg?raw=true">
+</p>
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/8_similarity_analysis.jpg?raw=true">
+</p>
+
+
 ### **Identifying locations with Ease-of-Accessibility:**
 
 **Objective:** Accessibility Buffer
@@ -111,4 +139,15 @@ A **premium coffee store** should be in:
 
 🔹 **Output:** Accessibility Raster
 
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/4_accessibility/1_accessibility.jpg?raw=true">
+</p>
+
+
 ### **Suitability Analysis:**
+**Objective:** To finnaly find the best postcode for our premium coffee shop
+
+📌 **Tool:** ArcGIS (`Suitability Modeler`)
+
+🔹 **Output:** Map showing best postcodes suitable for our premium coffee shop
+
