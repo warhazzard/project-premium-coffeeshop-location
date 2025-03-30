@@ -19,7 +19,7 @@ The study is focused on **Athens, Greece**, using:
 - **ArcGIS Analysis:** Heatmaps, point pattern analysis, and suitability scores.
 
 <p align="center">
-<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg?raw=true" width="600" height="auto">
+<img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/1_study_area/1_study_area.jpg?raw=true">
 </p>
 
 ## 🔍 **Site Selection Criteria**
@@ -43,15 +43,13 @@ A **premium coffee store** should be in:
 🔹 **Output:** Heatmap of crime hotspots
 
 <p align="center">
-  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true" width="600" height="auto">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true">
 </p>
 
-<p align="center">
-  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/2_ripley's-K.jpg?raw=true" width="600" height="auto">
-</p>
+
 
 <p align="center">
-  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/3_crime_risk.jpg?raw=true" width="600" height="auto">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/3_crime_risk.jpg?raw=true">
 </p>
 
 ---
@@ -151,3 +149,10 @@ A **premium coffee store** should be in:
 
 🔹 **Output:** Map showing best postcodes suitable for our premium coffee shop
 
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/5_suitability-analysis/1_Suitability_Map.jpg?raw=true">
+</p>
+
+<p align="center">
+  <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/5_suitability-analysis/2_Best_postcode.jpg?raw=true">
+</p>
