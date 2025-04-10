@@ -2,7 +2,7 @@
 
 <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/home_gif.gif?raw=true">
 
-## 📌 Project Overview
+## Project Overview
 
 **Project Scenario:**  
 An investor seeks the **best location** to establish a **premium coffee shop** in **Athens, Greece**. This analysis uses **spatial data, crime statistics, and socioeconomic indicators** to find the most suitable neighborhood based on:
@@ -15,7 +15,7 @@ An investor seeks the **best location** to establish a **premium coffee shop** i
 
 ---
 
-## 📍 Study Area & Data Sources
+## Study Area & Data Sources
 
 The study is focused on **Athens, Greece**, using:
 
@@ -36,7 +36,7 @@ The study is focused on **Athens, Greece**, using:
 
 ---
 
-## 🔍 Site Selection Criteria
+## Site Selection Criteria
 
 A **premium coffee store** should be in:
 
