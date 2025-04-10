@@ -1,8 +1,8 @@
-# ☕ <span style="color:#FF4500;">Premium Coffee Shop Location Analysis using ArcGIS Pro</span>
+# ☕ Premium Coffee Shop Location Analysis using ArcGIS Pro
 
 <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/home_gif.gif?raw=true">
 
-## <span style="color:#2E8B57;">Project Overview</span>
+## Project Overview
 
 **Project Scenario:**  
 An investor seeks the **best location** to establish a **premium coffee shop** in **Athens, Greece**. This analysis uses **spatial data, crime statistics, and socioeconomic indicators** to find the most suitable neighborhood based on:
@@ -15,7 +15,7 @@ An investor seeks the **best location** to establish a **premium coffee shop** i
 
 ---
 
-## <span style="color:#2E8B57;">Study Area & Data Sources</span>
+## Study Area & Data Sources
 
 The study is focused on **Athens, Greece**, using:
 
@@ -36,7 +36,7 @@ The study is focused on **Athens, Greece**, using:
 
 ---
 
-## <span style="color:#2E8B57;">Site Selection Criteria</span>
+## Site Selection Criteria
 
 A **premium coffee store** should be in:
 
@@ -48,11 +48,11 @@ A **premium coffee store** should be in:
 
 ---
 
-## <span style="color:#2E8B57;">Spatial Analysis Workflow</span>
+## Spatial Analysis Workflow
 
-### <span style="color:#4682B4;">1. Point Pattern Analysis</span>
+### 1. Point Pattern Analysis
 
-#### <span style="color:#6A5ACD;">Crime Analysis Using KDE</span>
+#### Crime Analysis Using KDE
 
 **Objective:**  
 Identify high-crime areas to avoid placing the store.
@@ -90,7 +90,7 @@ The images below illustrate this process step by step.
 
 ---
 
-#### <span style="color:#6A5ACD;">Supply & Demand Analysis</span>
+#### Supply & Demand Analysis
 
 **Objective:**  
 Identify ideal locations based on:
@@ -121,9 +121,9 @@ The images below illustrate the identified Supply and Demand hotspots.
 
 ---
 
-### <span style="color:#4682B4;">2. Spatial Autocorrelation</span>
+### 2. Spatial Autocorrelation
 
-#### <span style="color:#6A5ACD;">Locating High-Income Areas</span>
+#### Locating High-Income Areas
 
 **Objective:**  
 Identify high-income areas for our store.
@@ -165,7 +165,7 @@ Finally, Local Getis-Ord G* analysis was performed to pinpoint statistically sig
 
 ---
 
-#### <span style="color:#6A5ACD;">Multivariate Analysis</span>
+#### Multivariate Analysis
 
 **Objective:**  
 Clustering – High spenders, locating high-income areas, and determining the best location.
@@ -198,7 +198,7 @@ The process began with a random selection of clusters (e.g., K = 4), and through
 
 ---
 
-### <span style="color:#4682B4;">3. Identifying Locations with Ease-of-Accessibility</span>
+### 3. Identifying Locations with Ease-of-Accessibility
 
 **Objective:**  
 Accessibility Buffer
@@ -221,7 +221,7 @@ Buffer zones were created around each feature, reflecting a 5–10 minute walkab
 
 ---
 
-### <span style="color:#4682B4;">4. Suitability Analysis</span>
+### 4. Suitability Analysis
 
 **Objective:**  
 To finally find the best postcode for our premium coffee shop.
