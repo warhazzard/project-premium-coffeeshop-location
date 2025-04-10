@@ -63,6 +63,7 @@ A **premium coffee store** should be in:
 **Output:**  
 &emsp; Heatmap of crime hotspots
 
+**Notes:**  
 &emsp; To begin the analysis, point data for crimes, assaults, and burglaries was examined to identify any inherent spatial patterns within the city. The primary objective was to locate zones with a relatively higher risk of criminal activity.
 
 To gain a general understanding of the geographical center and directional trend of various crimes, both the geographic mean and the standard deviational ellipse were calculated. In order to determine whether the observed spatial patterns were random or indicative of an underlying clustering phenomenon, an Average Nearest Neighbor analysis was conducted. The results confirmed that the distribution was significantly clustered and unlikely to be due to random chance.
