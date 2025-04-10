@@ -48,7 +48,7 @@ A **premium coffee store** should be in:
 
 ---
 
-## 🏗 Spatial Analysis Workflow
+## Spatial Analysis Workflow
 
 ### 1. Point Pattern Analysis
 
@@ -57,11 +57,13 @@ A **premium coffee store** should be in:
 **Objective:**  
 Identify high-crime areas to avoid placing the store.
 
-📌 **Tool:**  
+**Tool:**  
 ArcGIS Pro (`Measure of Spread, Directional Trend - SDE, Ripley's K function, Kernel Density`)
 
-🔹 **Output:**  
+**Output:**  
 Heatmap of crime hotspots
+
+
 
 <p align="center">
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true">
@@ -97,10 +99,10 @@ Identify ideal locations based on:
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true">
 </p>
 
-📌 **Tool:**  
+**Tool:**  
 ArcGIS (`Proximity(Buffer), Measure of Spread, Directional Trend & Kernel Density Analysis`)
 
-🔹 **Output:**  
+**Output:**  
 Heatmap of Supply and Demand
 
 ---
@@ -112,10 +114,10 @@ Heatmap of Supply and Demand
 **Objective:**  
 Identify high-income areas for our store.
 
-📌 **Tool:**  
+**Tool:**  
 ArcGIS Pro (`Moran’s I, Getis-Ord General G`)
 
-🔹 **Output:**  
+**Output:**  
 Identify spatial autocorrelation of Income
 
 - Identifying threshold distance for global Moran's I  
@@ -150,10 +152,10 @@ Identify spatial autocorrelation of Income
 **Objective:**  
 Clustering – High spenders, locating high-income areas, and determining the best location.
 
-📌 **Tool:**  
+**Tool:**  
 ArcGIS Pro (`Group Analysis(K-means), Cosine Similarity`)
 
-🔹 **Output:**  
+**Output:**  
 Best candidate postcodes for store location
 
 - Multivariate Analysis  
@@ -178,10 +180,10 @@ Best candidate postcodes for store location
 **Objective:**  
 Accessibility Buffer
 
-📌 **Tool:**  
+**Tool:**  
 ArcGIS Pro (`Buffer`)
 
-🔹 **Output:**  
+**Output:**  
 Accessibility Raster
 
 <p align="center">
@@ -195,10 +197,10 @@ Accessibility Raster
 **Objective:**  
 To finally find the best postcode for our premium coffee shop.
 
-📌 **Tool:**  
+**Tool:**  
 ArcGIS (`Suitability Modeler`)
 
-🔹 **Output:**  
+**Output:**  
 Map showing best postcodes suitable for our premium coffee shop.
 
 <p align="center">
