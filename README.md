@@ -50,20 +50,26 @@ A **premium coffee store** should be in:
 
 ## Spatial Analysis Workflow
 
-### 1. Point Pattern Analysis
+### 1. <u>Point Pattern Analysis</u>
 
-#### Crime Analysis Using KDE
+#### <u>Crime Analysis Using KDE</u>
 
 **Objective:**  
-Identify high-crime areas to avoid placing the store.
+&emsp; Identify high-crime areas to avoid placing the store.
 
 **Tool:**  
-ArcGIS Pro (`Measure of Spread, Directional Trend - SDE, Ripley's K function, Kernel Density`)
+&emsp; ArcGIS Pro (`Measure of Spread, Directional Trend - SDE, Ripley's K function, Kernel Density`)
 
 **Output:**  
-Heatmap of crime hotspots
+&emsp; Heatmap of crime hotspots
 
+&emsp; To begin the analysis, point data for crimes, assaults, and burglaries was examined to identify any inherent spatial patterns within the city. The primary objective was to locate zones with a relatively higher risk of criminal activity.
 
+To gain a general understanding of the geographical center and directional trend of various crimes, both the geographic mean and the standard deviational ellipse were calculated. In order to determine whether the observed spatial patterns were random or indicative of an underlying clustering phenomenon, an Average Nearest Neighbor analysis was conducted. The results confirmed that the distribution was significantly clustered and unlikely to be due to random chance.
+
+Additionally, Ripley's K function was applied to identify the distance at which clustering was most pronounced. This analysis revealed a dominant clustering distance of approximately 1800 meters, which was subsequently used as the bandwidth parameter for Kernel Density Estimation (KDE) to generate crime hotspots.
+
+The images below illustrate this process step by step.
 
 <p align="center">
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/1_crime_nearest_neigbour.jpg?raw=true">
