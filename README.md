@@ -25,7 +25,7 @@ The study is focused on **Athens, Greece**, using:
     *(Grekousis G. (2020). Spatial analysis theory and practice: describe - explore - explain through GIS. Cambridge University Press, New York, NY)*
 
 - **OpenStreetMap (OSM):**  
-    Cafe locations, offices, universities, transport hubs and network, and amenities.
+    Cafe locations, offices, universities, transport hubs and network, and other amenities.
 
 - **ArcGIS Analysis:**  
     Heatmaps, point pattern analysis, spatial autocorrelation and suitability builder.
@@ -55,13 +55,13 @@ A **premium coffee store** should be in:
 #### <u>Crime Analysis Using KDE</u>
 
 **Objective:**  
-&emsp; Identify high-crime areas to avoid placing the store.
+Identify high-crime areas to avoid placing the store.
 
 **Tool:**  
-&emsp; ArcGIS Pro (`Measure of Spread, Directional Trend - SDE, Ripley's K function, Kernel Density`)
+ArcGIS Pro (`Measure of Spread, Directional Trend - SDE, Ripley's K function, Kernel Density`)
 
 **Output:**  
-&emsp; Heatmap of crime hotspots
+Heatmap of crime hotspots
 
 **Notes:**  
 &emsp; To begin the analysis, point data for crimes, assaults, and burglaries was examined to identify any inherent spatial patterns within the city. The primary objective was to locate zones with a relatively higher risk of criminal activity.
@@ -93,16 +93,16 @@ The images below illustrate this process step by step.
 #### <u>Supply & Demand Analysis</u>
 
 **Objective:**  
-&emsp; Identify ideal locations based on:
+Identify ideal locations based on:
 
 - **Existing coffee shops** (Avoid high competition areas)  
 - **Footfall zones** (Universities, malls, offices)
 
 **Tool:**  
-&emsp; ArcGIS (`Proximity(Buffer), Measure of Spread, Directional Trend & Kernel Density Analysis`)
+ArcGIS (`Proximity(Buffer), Measure of Spread, Directional Trend & Kernel Density Analysis`)
 
 **Output:**  
-&emsp; Heatmap of Supply and Demand
+Heatmap of Supply and Demand
 
 **Notes:**  
 &emsp; Following a similar point pattern analysis approach used for crime data, the spatial distribution of existing cafés and coffee shops (representing Supply) was analyzed alongside targeted foot traffic groups (representing Demand). The objective was to identify areas of alignment—or mismatch—between café locations and high-demand zones.
@@ -126,13 +126,13 @@ The images below illustrate the identified Supply and Demand hotspots.
 #### Locating High-Income Areas
 
 **Objective:**  
-&emsp; Identify high-income areas for our store.
+Identify high-income areas for our store.
 
 **Tool:**  
-&emsp; ArcGIS Pro (`Moran’s I, Getis-Ord General G`)
+ArcGIS Pro (`Moran’s I, Getis-Ord General G`)
 
 **Output:**  
-&emsp; Identify spatial autocorrelation of Income
+Identify spatial autocorrelation of Income
 
 **Notes:**  
 &emsp; To explore spatial patterns in income distribution, a series of spatial statistical analyses were conducted.
@@ -175,9 +175,14 @@ ArcGIS Pro (`Group Analysis(K-means), Cosine Similarity`)
 
 **Output:**  
 Best candidate postcodes for store location
+  
+**Notes:**  
+- Multivariate Analysis - To identify homogeneous socioeconomic clusters across postcodes, a Grouping Analysis was performed in ArcGIS Pro using the K-means clustering algorithm. The goal was to segment the postcodes based on similarities in multiple socioeconomic variables.
 
-- Multivariate Analysis  
-- Similarity Analysis  
+The process began with a random selection of clusters (e.g., K = 4), and through iterative analysis, the most appropriate number of clusters was determined. The Pseudo F-statistic report was used to assess clustering performance, helping identify the optimal K value. Additionally, the report highlighted variables with lower significance in cluster formation—these were removed to refine the model. The analysis was then re-run with the reduced set of meaningful variables, resulting in more accurate and distinct clusters.
+  
+- Similarity Analysis  - To complement the clustering, a Similarity Analysis was conducted to identify postcodes that are most similar to a selected target area—specifically, the postcode with the highest overall expenses. Using cosine similarity, the analysis compared other postcodes based on variables such as university education, PhD qualifications, income, insurance coverage, rent, and expenses. This helped uncover other areas that shared closely aligned socioeconomic profiles with the high-expense postcode.
+
 
 <p align="center">
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/6_multivar_kmeans.jpg?raw=true">
@@ -203,6 +208,9 @@ ArcGIS Pro (`Buffer`)
 
 **Output:**  
 Accessibility Raster
+
+**Notes:**
+&emsp; 
 
 <p align="center">
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/4_accessibility/1_accessibility.jpg?raw=true">
