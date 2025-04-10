@@ -11,7 +11,7 @@ An investor seeks the **best location** to establish a **premium coffee shop** i
 - ✅ **Low crime rates**
 - ✅ **High foot traffic**
 - ✅ **Minimal competition**
-- ✅ **Good accessibility (near roads/public transport)**
+- ✅ **Good accessibility (near roads/public transport hubs)**
 
 ---
 
@@ -42,7 +42,7 @@ A **premium coffee store** should be in:
 
 1. **High-income zones** → Customers willing to pay for premium coffee.  
 2. **Low-crime areas** → Ensures customer safety.  
-3. **High-footfall locations** → Near offices, malls, universities, offices, transit hubs.  
+3. **High-footfall locations** → Near offices, malls, universities, offices.  
 4. **Minimal competition zones** → Avoid oversaturated areas with cafes.  
 5. **Easily accessible areas** → Close to subway/bus stations.  
 
@@ -233,7 +233,28 @@ ArcGIS (`Suitability Modeler`)
 Map showing best postcodes suitable for our premium coffee shop.
 
 **Notes:**
-&emsp; 
+&emsp; Using the Suitability Model Builder in ArcGIS Pro, a suitability score was computed for each pixel based on a combination of key parameters essential for a successful premium coffee shop:
+
+High-income zones → Indicates customers with greater spending power.
+
+Low-crime areas → Ensures customer safety and a comfortable environment.
+
+High-footfall locations → Proximity to offices, malls, universities, and transit hubs.
+
+Minimal competition → Avoids areas already saturated with cafés.
+
+Ease of accessibility → Near subway or bus stations for convenient access.
+
+Each factor was weighted and combined to generate a suitability score:
+
+A higher score indicates a more favorable location.
+
+A lower score reflects less suitable conditions for a premium café.
+
+Using the resulting suitability map, zonal statistics were calculated for each postcode previously identified through similarity analysis. This process helped pinpoint the top candidates for café placement.
+
+🔹 Top recommended postcode: 10674
+🔹 Second-best option: 10675
 
 
 <p align="center">
