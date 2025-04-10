@@ -90,13 +90,25 @@ The images below illustrate this process step by step.
 
 ---
 
-#### Competitor & Demand Analysis
+#### <u>Competitor/Supply & Demand(Targetted Foot Traffic) Analysis</u>
 
 **Objective:**  
-Identify ideal locations based on:
+&emsp; Identify ideal locations based on:
 
 - **Existing coffee shops** (Avoid high competition areas)  
 - **Footfall zones** (Universities, malls, offices)
+
+**Tool:**  
+&emsp; ArcGIS (`Proximity(Buffer), Measure of Spread, Directional Trend & Kernel Density Analysis`)
+
+**Output:**  
+&emsp; Heatmap of Supply and Demand
+
+**Notes:**  
+&emsp; Following a similar point pattern analysis approach used for crime data, the spatial distribution of existing cafés and coffee shops (representing Supply) was analyzed alongside targeted foot traffic groups (representing Demand). The objective was to identify areas of alignment—or mismatch—between café locations and high-demand zones.
+
+The images below illustrate the identified Supply and Demand hotspots.
+
 
 <p align="center">
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/4_demand.jpg?raw=true">
@@ -106,11 +118,6 @@ Identify ideal locations based on:
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/2_point_pattern_analysis/5_supply.jpg?raw=true">
 </p>
 
-**Tool:**  
-ArcGIS (`Proximity(Buffer), Measure of Spread, Directional Trend & Kernel Density Analysis`)
-
-**Output:**  
-Heatmap of Supply and Demand
 
 ---
 
