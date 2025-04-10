@@ -90,7 +90,7 @@ The images below illustrate this process step by step.
 
 ---
 
-#### <u>Competitor/Supply & Demand(Targetted Foot Traffic) Analysis</u>
+#### <u>Supply & Demand Analysis</u>
 
 **Objective:**  
 &emsp; Identify ideal locations based on:
@@ -126,18 +126,22 @@ The images below illustrate the identified Supply and Demand hotspots.
 #### Locating High-Income Areas
 
 **Objective:**  
-Identify high-income areas for our store.
+&emsp; Identify high-income areas for our store.
 
 **Tool:**  
-ArcGIS Pro (`Moran’s I, Getis-Ord General G`)
+&emsp; ArcGIS Pro (`Moran’s I, Getis-Ord General G`)
 
 **Output:**  
-Identify spatial autocorrelation of Income
+&emsp; Identify spatial autocorrelation of Income
 
-- Identifying threshold distance for global Moran's I  
-- Estimating spatial weights table based on the previously estimated distance to be used in cluster and outlier analysis to identify local income clusters and hotspots  
-- Examining if local clusters and outliers exist, and if so, where are they? - using local Moran's I  
-- Finally, identify income hotspots and coldspots using the local Getis-Ord G∗  
+**Notes:**  
+&emsp; To explore spatial patterns in income distribution, a series of spatial statistical analyses were conducted.
+
+First, a threshold distance was identified for calculating Global Moran’s I, which provided insight into the overall spatial autocorrelation of income levels across the city. Using this distance, a spatial weights matrix was created to serve as the foundation for further local analyses.
+
+Next, Local Moran’s I was applied to detect the presence of income-based clusters and outliers. This helped answer the key question: Are there localized clusters or anomalies in income distribution, and where are they located?
+
+Finally, Local Getis-Ord G* analysis was performed to pinpoint statistically significant income hotspots and coldspots, offering a clear visual of areas with concentrated high or low income levels. 
 
 <p align="center">
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/3_spatial_autocorrelation/1_moranI-global.jpg?raw=true">
