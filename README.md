@@ -210,7 +210,10 @@ ArcGIS Pro (`Buffer`)
 Accessibility Raster
 
 **Notes:**
-&emsp; 
+&emsp; To evaluate the ease of access across the city, key transport infrastructure was analyzed—including transport hubs, major roads, subway stations, and local bus service routes. These features were considered as primary indicators of ease-of-accessibility.
+
+Buffer zones were created around each feature, reflecting a 5–10 minute walkability range. Using these buffers, a raster surface was generated to represent varying levels of accessibility, scaling from most accessible to least accessible locations. This allowed for a spatial understanding of how well different areas are connected in terms of everyday mobility and public transport reach.
+
 
 <p align="center">
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/4_accessibility/1_accessibility.jpg?raw=true">
@@ -228,6 +231,10 @@ ArcGIS (`Suitability Modeler`)
 
 **Output:**  
 Map showing best postcodes suitable for our premium coffee shop.
+
+**Notes:**
+&emsp; 
+
 
 <p align="center">
     <img src="https://github.com/warhazzard/project-premium-coffeeshop-location/blob/main/outputs-images/5_suitability-analysis/1_Suitability_Map.jpg?raw=true">
