@@ -5,7 +5,7 @@
 ## Project Overview
 
 **Project Scenario:**  
-An investor seeks the **best location** to establish a **premium coffee shop** in **Athens, Greece**. 
+An investor seeks the **best location** to establish a **premium coffee shop** in **Athens, Greece**. <br>
 This analysis uses **various spatial data and socioeconomic indicators** to find the most suitable neighborhood based on:
 
 - ✅ **High-income population**
